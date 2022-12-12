@@ -11,13 +11,19 @@ export default function Topbar() {
       <div className="flex">
         {/* Search Box */}
         <div className="flex-1">
-          <FormControl variant="standard" className="dark:text-gray-50 ">
+          <FormControl
+            variant="standard"
+            className="text-back-body dark:text-gray-50 "
+          >
             <Input
               id="input-with-icon-adornment"
               className="text-back-body dark:text-gray-50"
               placeholder="جستجو"
               startAdornment={
-                <InputAdornment position="start" className="dark:text-gray-50">
+                <InputAdornment
+                  position="start"
+                  className="text-back-body dark:text-gray-50"
+                >
                   <SearchIcon />
                 </InputAdornment>
               }

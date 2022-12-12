@@ -13,14 +13,16 @@ const ContactContent = () => {
         <Topbar />
         <div className="mt-12 bg-my-silver px-4 py-1 rounded-lg dark:bg-back-body">
           <span>
-            <PermPhoneMsgOutlinedIcon className="text-md" />
+            <PermPhoneMsgOutlinedIcon className="text-md text-back-body dark:text-gray-50" />
           </span>
-          <span className="mr-2 font-semibold">اطلاعات تماس</span>
+          <span className="mr-2 font-semibold text-back-body dark:text-gray-50">
+            اطلاعات تماس
+          </span>
         </div>
         <div className="py-4">
           <form>
             <input
-              className="my-3 dark:text-back-body p-2 rounded-lg min-w-full"
+              className="my-3 text-back-body p-2 rounded-lg min-w-full"
               onChange={(e) => setSearch(e.target.value)}
               placeholder="Search contacts"
             />
