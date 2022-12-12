@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "BYekan";
+  src: local("BYekan"), url("../fonts/BYekan.ttf") format("truetype"),
+    url("../fonts/BYekan.woff") format("woff");
+}
+
+:root {
+  --back-dashboard: #243b53;
+  --my-silver: #e6e6df;
+  --back-body: #191a21;
+  --my-white: #f6f6f5;
+  --my-green: #67ceb4;
+}
+
+* {
+  font-family: "BYekan" !important;
+}
+
+*:focus {
+  outline: none;
+}
+
+@layer base {
+  body {
+    @apply bg-back-body text-gray-900 dark:text-gray-50;
+    font-family: "BYekan";
+  }
+
+  svg {
+    @apply cursor-pointer text-gray-900 dark:text-gray-50;
+  }
+}
+
+@layer components {
+  .dark-light {
+    @apply p-2 rounded-r-xl max-w-sm fixed top-10;
+    background-image: linear-gradient(
+      to right top,
+      #141928,
+      #151b2a,
+      #171d2d,
+      #181f2f,
+      #192132,
+      #203046,
+      #26415a,
+      #2a526e,
+      #2c7997,
+      #2ca3bc,
+      #3bcfda,
+      #5ffbf1
+    );
+  }
+
+  .rtl {
+    direction: rtl;
+  }
+
+  .line {
+    @apply min-w-full h-[1px] bg-gray-300;
+  }
+
+  .sidebar svg {
+    @apply text-sm;
+  }
+
+  .silver-box {
+    @apply bg-my-silver dark:bg-gray-900 px-3 py-4 rounded-lg dark:text-gray-50;
+  }
+}
