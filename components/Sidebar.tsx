@@ -68,7 +68,7 @@ const Sidebar = () => {
                   <PeopleOutlinedIcon />
                 </span>
 
-                <span className="mr-2">
+                <span className="mr-2 hover:bg-cyan-600 hover:px-2 py-1 hover:rounded-lg">
                   <Link href="/team">مدیریت تیم</Link>
                 </span>
               </li>
@@ -77,7 +77,7 @@ const Sidebar = () => {
                 <span>
                   <ContactsOutlinedIcon />
                 </span>
-                <span className="mr-2">
+                <span className="mr-2 hover:bg-cyan-600 hover:px-2 py-1 hover:rounded-lg">
                   <Link href="/contact">اطلاعات تماس</Link>
                 </span>
               </li>
@@ -100,7 +100,7 @@ const Sidebar = () => {
                   <PersonOutlinedIcon />
                 </span>
 
-                <span className="mr-2">
+                <span className="mr-2 hover:bg-cyan-600 hover:px-2 py-1 hover:rounded-lg">
                   <Link href="/user">فرم کاربری</Link>
                 </span>
               </li>
