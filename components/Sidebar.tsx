@@ -22,7 +22,7 @@ const Sidebar = () => {
   return (
     <>
       {isCool ? (
-        <div className="sidebar flex-1 px-5 py-2 rounded-bl-lg rounded-tl-lg max-w-[15rem] bg-my-white dark:bg-back-dashboard dark:text-gray-100">
+        <div className="sidebar text-back-body flex-1 px-5 py-2 rounded-bl-lg rounded-tl-lg max-w-[15rem] bg-my-white dark:bg-back-dashboard dark:text-gray-100">
           {/* Start Top Image */}
           <div className="flex justify-between">
             <div>مدیران</div>

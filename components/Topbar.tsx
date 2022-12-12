@@ -14,7 +14,7 @@ export default function Topbar() {
           <FormControl variant="standard" className="dark:text-gray-50 ">
             <Input
               id="input-with-icon-adornment"
-              className="dark:text-gray-50 text-gray-900"
+              className="text-back-body dark:text-gray-50"
               placeholder="جستجو"
               startAdornment={
                 <InputAdornment position="start" className="dark:text-gray-50">

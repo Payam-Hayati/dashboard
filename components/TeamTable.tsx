@@ -8,9 +8,11 @@ const TeamTable = () => {
         <Topbar />
         <div className="mt-12 bg-my-silver px-4 py-1 rounded-lg dark:bg-back-body">
           <span>
-            <PeopleAltOutlinedIcon className="text-md" />
+            <PeopleAltOutlinedIcon className="text-md text-back-body dark:text-gray-50" />
           </span>
-          <span className="mr-2 font-semibold">اطلاعات کاربران</span>
+          <span className="mr-2 font-semibold text-back-body dark:text-gray-50">
+            اطلاعات کاربران
+          </span>
         </div>
 
         <div className="">

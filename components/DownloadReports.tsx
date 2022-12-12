@@ -9,9 +9,11 @@ const DownloadReports = () => {
         <div className="flex justify-between">
           <button className="bg-[#9598F6] px-2 py-1 rounded-lg">
             <span>
-              <FileDownloadOutlinedIcon className="text-[16px]" />
+              <FileDownloadOutlinedIcon className="text-[16px] text-back-body dark:text-gray-50" />
             </span>
-            <span className="text-sm mr-1">دریافت گزارش</span>
+            <span className="text-sm mr-1 text-back-body dark:text-gray-50">
+              دریافت گزارش
+            </span>
           </button>
           <div className="flex-1 text-left"></div>
         </div>

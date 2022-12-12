@@ -11,7 +11,9 @@ const UserContent = () => {
           <span>
             <GroupAddOutlinedIcon className="text-md" />
           </span>
-          <span className="mr-2 font-semibold">افزودن کاربر</span>
+          <span className="mr-2 font-semibold text-back-body dark:text-gray-50">
+            افزودن کاربر
+          </span>
         </div>
         <div className="py-4">
           <AddUserForm />

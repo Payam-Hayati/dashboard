@@ -49,7 +49,12 @@ const Summaries = () => {
                   <EmailOutlinedIcon className="text-my-green" />
                 </p>
                 <p>
-                  <CountUp start={0} end={12345} duration={4} />
+                  <CountUp
+                    start={0}
+                    end={12345}
+                    duration={4}
+                    className="text-back-body dark:text-gray-50"
+                  />
                 </p>
                 <p className="text-my-green text-sm">ایمیل های ارسالی</p>
               </div>
@@ -183,9 +188,14 @@ const Summaries = () => {
                   <CalculateOutlinedIcon className="text-my-green" />
                 </p>
                 <p>
-                  <CountUp start={0} end={431235} duration={4} />
+                  <CountUp
+                    start={0}
+                    end={431235}
+                    duration={4}
+                    className="text-back-body dark:text-gray-50"
+                  />
                 </p>
-                <p className="text-my-green text-sm">سود فروش</p>
+                <p className="text-my-green text-sm ">سود فروش</p>
               </div>
               <div className="text-left">
                 <ResponsivePie
@@ -317,7 +327,12 @@ const Summaries = () => {
                   <PersonAddAltOutlinedIcon className="text-my-green" />
                 </p>
                 <p>
-                  <CountUp start={0} end={12400} duration={4} />
+                  <CountUp
+                    start={0}
+                    end={12400}
+                    duration={4}
+                    className="text-back-body dark:text-gray-50"
+                  />
                 </p>
                 <p className="text-my-green text-sm">مشتریان جدید</p>
               </div>
@@ -451,7 +466,12 @@ const Summaries = () => {
                   <TrafficOutlinedIcon className="text-my-green" />
                 </p>
                 <p>
-                  <CountUp start={0} end={12400} duration={4} />
+                  <CountUp
+                    start={0}
+                    end={12400}
+                    duration={4}
+                    className="text-back-body dark:text-gray-50"
+                  />
                 </p>
                 <p className="text-my-green text-sm">بازدید کنندگان</p>
               </div>
