@@ -8,12 +8,12 @@ import PersonOutlinedIcon from "@mui/icons-material/PersonOutlined";
 export default function Topbar() {
   return (
     <>
-      <div className="flex">
+      <div className="flex text-back-body dark:text-gray-50">
         {/* Search Box */}
-        <div className="flex-1">
+        <div className="flex-1 text-back-body dark:text-gray-50">
           <FormControl
             variant="standard"
-            className="text-back-body dark:text-gray-50 "
+            className="text-back-body dark:text-gray-50 bg-my-silver rounded-lg"
           >
             <Input
               id="input-with-icon-adornment"
